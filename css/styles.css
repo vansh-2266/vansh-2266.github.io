@@ -103,3 +103,21 @@ a{
          grid-row: unset !important;
     }
 }
+
+
+
+/* ////////////////////////////////////////// */
+
+@media (max-width: 425px){
+
+    img{
+        width: 30vw;
+    }
+
+    .my-profile{
+        width: 91vw;
+    }
+
+
+
+}
