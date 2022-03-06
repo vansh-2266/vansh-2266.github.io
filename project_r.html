@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/project_r.css">
      <!-- link icon -->
      <link rel="icon" type="image/x-icon" href="img/profile.png">
+
+     <!-- Animation AOS library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>My Projects</title>
 </head>
 <body>
@@ -16,7 +20,7 @@
         <h1 class="heading" ><strong> <u>My <span class="text-primary">Projects:</span> </u>  </strong></h1>
 
          <main class="grid">
-             <article>
+             <article data-aos="zoom-in">
                  <img src="img/p-1_wall.JPG" alt="w-1">
                  <div class="text">
                      <h3>Hack Covid-19</h3>
@@ -26,7 +30,7 @@
                  </div>
              </article>
 
-             <article>
+             <article data-aos="zoom-in">
                 <img src="img/p-2_wall.png" alt="w-1">
                 <div class="text">
                     <h3> Company Webpage. </h3>
@@ -35,7 +39,7 @@
                 </div>
             </article>
 
-            <article>
+            <article data-aos="zoom-in">
                 <img src="img/p-3 wall.png" alt="w-1">
                 <div class="text">
                     <h3> Lucky Dice Game</h3>
@@ -45,7 +49,7 @@
                 </div>
             </article>
 
-            <article>
+            <article data-aos="zoom-in">
                 <img src="img/p-4 _wall.png" alt="w-1">
                 <div class="text">
                     <h3>Parking System.</h3>
@@ -54,7 +58,7 @@
                 </div>
             </article>
 
-            <article>
+            <article data-aos="zoom-in">
                 <img src="img/p-5_wall.png" alt="w-1">
                 <div class="text">
                     <h3>Card Template</h3>
@@ -63,7 +67,7 @@
                 </div>
             </article>
 
-            <article>
+            <article data-aos="zoom-in">
                 <img src="img/p-6_wall.png" alt="w-1">
                 <div class="text">
                     <h3>Coming Soon!</h3>
@@ -74,5 +78,17 @@
 
          </main>
      </div>
+
+
+     <!-- animation aos library  -->
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+    AOS.init({
+      delay: 100,
+      offset: 200,
+    });
+     </script>
+
+
 </body>
 </html>
