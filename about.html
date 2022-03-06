@@ -14,10 +14,13 @@
     <!-- link icon -->
     <link rel="icon" type="image/x-icon" href="img/profile.png">
 
+    <!-- Animation AOS library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>About Me</title>
 </head>
 <body>
-            <div class="container ">
+            <div class="container " data-aos="fade-up-right">
               <div>
                 <h1 class="text-center"><strong> <u>About<span class="text-primary"> Me </span></u>  </strong> </h1>
                 <hr class="about_hr mx-auto">
@@ -47,7 +50,8 @@
 
             <!-- ********** my skill *********** -->
       
-            <div class="container">
+            <!-- data-aos="fade-up-left" -->
+            <div class="container" >
 
               <div>
                 <h1 class="text-center pt-5" ><strong> <u>My <span class="main-title">Skills </span> </u>  </strong></h1>
@@ -56,7 +60,7 @@
         
               <div class="row pt-5 my-row-skill">
         
-                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12 ">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12 "  data-aos="fade-right">
         
                   <div class="card text-white mb-3">
                     <div class="card-body">
@@ -69,7 +73,7 @@
         
                 </div>
         
-                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12"  data-aos="fade-left">
         
                   <div class="card  text-white  mb-3">
                     <div class="card-body">
@@ -81,7 +85,7 @@
         
                 </div>
         
-                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12" data-aos="fade-right">
         
                   <div class="card text-white  mb-3">
                     <div class="card-body">
@@ -93,7 +97,7 @@
         
                 </div>
         
-                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12" data-aos="fade-left">
         
                   <div class="card text-white  mb-3">
                     <div class="card-body">
@@ -105,7 +109,7 @@
         
                 </div>
         
-                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12" data-aos="fade-right">
         
                   <div class="card text-white  mb-3">
                     <div class="card-body">
@@ -117,7 +121,7 @@
         
                 </div>
         
-                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12" data-aos="fade-left">
         
                   <div class="card text-white  mb-3">
                     <div class="card-body">
@@ -134,6 +138,14 @@
         
         
         
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      delay: 150,
+      offset: 200,
+    });
+  </script>
 
 </body>
 </html>
