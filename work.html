@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal - www.codingnepalweb.com -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,18 +8,22 @@
     <!-- link icon -->
     <link rel="icon" type="image/x-icon" href="img/profile.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <!-- Animation AOS library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
 
-    <div>
+    <div  data-aos="fade-down">
         <h1><strong> <u>Work <span>Experience:</span> </u>  </strong></h1>
-      </div>
+    </div>
 
   <div class="wrapper">
     <div class="center-line">
       <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
     </div>
-    <div class="row row-1">
+    <div class="row row-1" data-aos="fade-right">
       <section>
         <i class="icon fas fa-home"></i>
         <div class="details">
@@ -35,7 +38,7 @@
             <li><span>Contribution on different Events.</span></li>
       </section>
     </div>
-    <div class="row row-2">
+    <div class="row row-2" data-aos="fade-left">
       <section>
         <i class="icon fas fa-star"></i>
         <div class="details">
@@ -50,7 +53,7 @@
             <li><span>Taking sessions on coding related topics.</span></li>
       </section>
     </div>
-    <div class="row row-1">
+    <div class="row row-1" data-aos="fade-right">
       <section>
         <i class="icon fas fa-rocket"></i>
         <div class="details">
@@ -67,7 +70,7 @@
         </span></li>
       </section>
     </div>
-    <div class="row row-2">
+    <div class="row row-2" data-aos="fade-left">
       <section>
         <i class="icon fas fa-globe"></i>
         <div class="details">
@@ -83,7 +86,7 @@
         </span></li>
       </section>
     </div>
-    <div class="row row-1">
+    <div class="row row-1" data-aos="fade-right">
       <section>
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
@@ -99,5 +102,15 @@
       </section>
     </div>
   </div>
+
+  <!-- animation aos library  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      delay: 100,
+      offset: 100,
+    });
+  </script>
+
 </body>
 </html>
