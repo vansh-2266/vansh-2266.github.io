@@ -13,31 +13,44 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+
+    <!-- Animation AOS library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
   <body>
-
-    <div>
-      <h1 class="text-center pt-5" ><strong> <u>My <span class="text-primary">Education</span> </u>  </strong></h1>
+    <div data-aos="fade-up">
+      <h1 class="text-center pt-5">
+        <strong>
+          <u>My <span class="text-primary">Education</span> </u>
+        </strong>
+      </h1>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper" >
       <div class="center-line">
         <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
       </div>
-      <div class="row row-1">
+      <div class="row row-1"  data-aos="fade-right">
         <section>
           <i class="icon fas fa-rocket"></i>
           <div class="details">
             <span class="title"><u>Bachelor of Technology</u></span>
             <span>2020-Present</span>
           </div>
-          <li><span>Bharati Vidyapeeth's College of Engineering, Pune.</span></li>
-            <li><span><b>Grade:  </b></span> <span>&nbsp 9.84 CGPA. (Till Now)</span></li>
-            <li><span><b>Branch:  </b></span> <span>&nbsp Electronics & Communication (ECE).
-            </span></li>
+          <li>
+            <span>Bharati Vidyapeeth's College of Engineering, Pune.</span>
+          </li>
+          <li>
+            <span><b>Grade: </b></span> <span>&nbsp 9.84 CGPA. (Till Now)</span>
+          </li>
+          <li>
+            <span><b>Branch: </b></span>
+            <span>&nbsp Electronics & Communication (ECE). </span>
+          </li>
         </section>
       </div>
-      <div class="row row-2">
+      <div class="row row-2"  data-aos="fade-left">
         <section>
           <i class="icon fas fa-paper-plane"></i>
           <div class="details">
@@ -46,12 +59,16 @@
           </div>
           <ul>
             <li><span>Dhanbad Public School, Dhanbad, Jharkhand.</span></li>
-            <li><span><b>Grade:  </b></span> <span>&nbsp 91.6 %</span></li>
-            <li><span><b>Subject:  </b></span> <span>&nbsp Science (PCM).</span></li>
+            <li>
+              <span><b>Grade: </b></span> <span>&nbsp 91.6 %</span>
+            </li>
+            <li>
+              <span><b>Subject: </b></span> <span>&nbsp Science (PCM).</span>
+            </li>
           </ul>
         </section>
       </div>
-      <div class="row row-1">
+      <div class="row row-1" data-aos="fade-right">
         <section>
           <i class="icon fas fa-globe"></i>
           <div class="details">
@@ -60,10 +77,22 @@
           </div>
           <ul>
             <li><span>Dhanbad Public School, Hirak Branch, Dhanbad.</span></li>
-            <li><span><b>Grade:  </b></span> <span>&nbsp 80 %</span></li>
+            <li>
+              <span><b>Grade: </b></span> <span>&nbsp 80 %</span>
+            </li>
           </ul>
         </section>
       </div>
     </div>
+
+    <!-- animation aos library  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 100,
+        offset: 200,
+      });
+    </script>
+
   </body>
 </html>
