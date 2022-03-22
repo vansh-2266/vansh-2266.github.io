@@ -99,3 +99,19 @@ p {
         text-align: center;
     }
 }
+
+
+
+/* ********* preloader *********** */
+
+#preloader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    /* background-size: 10%; */
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
